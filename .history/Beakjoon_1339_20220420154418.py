@@ -37,7 +37,7 @@ dic = {}
 num_list = []
 
 for i in range(N):
-    alphabet.append(str(input()))
+    alphabet.append(str(input(i)))
 
 for i in range(N):
     for j in range(len(alphabet[i])):
