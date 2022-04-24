@@ -1,9 +1,11 @@
 import heapq
 N, K = map(int, input().split()) # 보석개수, 가방개수
 
-jewelry = [list(map(int, input().split())) for _ in range(N)] # 보석 배열 
-bags = [int(input()) for _ in range(K)]# 가방 배열
+jewelry = [tuple(map(int, input().split())) for _ in range(N)] # 보석 배열 
 jewelry.sort()
+
+
+bags = [int(input()) for _ in range(K)]# 가방 배열
 bags.sort()
 
 result = 0
