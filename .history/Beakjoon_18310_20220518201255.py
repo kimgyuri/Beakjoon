@@ -10,3 +10,5 @@ house = deque(house)
 right = house[-1]
 left = house[0]
 mid = (left + right)//2
+
+print(mid)
