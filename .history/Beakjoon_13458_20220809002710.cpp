@@ -19,7 +19,7 @@ int main() {
     cin >> B >> C;
 
     int result = 0;
-    for(int i=1; i<1000001; i++){
+    for(int i=1; i<sizeof DAT; i++){
         if (DAT[i] == 0) continue; // 해당 요소가 0이면 무시
 
         int sub = 0; // 부 감독관 수
