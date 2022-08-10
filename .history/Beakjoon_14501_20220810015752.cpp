@@ -1,7 +1,7 @@
 #include <iostream>
 #include <algorithm>
-#define MAX_T 10
-#define MAX_P 20
+#define MAX_T 7
+#define MAX_P 1002 
 using namespace std;
 
 int N; // 남은 일 수
@@ -18,7 +18,7 @@ int main() {
     cin >> N;
 
     // 1. 배열 초기화
-    for ( int i = 1; i <= N; i++ ) {
+    for ( int i = 0; i < N; i++ ) {
         cin >> T[i] >> P[i];
     }
 
@@ -41,3 +41,5 @@ int main() {
 
     return 0;
 }
+
+// 참고 : https://yabmoons.tistory.com/1

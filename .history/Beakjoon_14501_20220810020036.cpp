@@ -1,7 +1,7 @@
 #include <iostream>
 #include <algorithm>
 #define MAX_T 10
-#define MAX_P 20
+#define MAX_P 1005
 using namespace std;
 
 int N; // 남은 일 수
@@ -41,3 +41,5 @@ int main() {
 
     return 0;
 }
+
+// 참고 : https://yabmoons.tistory.com/1

@@ -16,7 +16,7 @@ int main() {
     for(int i=0; i<N; i++){
         int A; // 응시자의 수
         cin >> A;
-        arr[i] = A;
+        arr[i] = A: 
     }
     cin >> B >> C;
 
