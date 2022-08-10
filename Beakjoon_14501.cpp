@@ -24,8 +24,8 @@ int main() {
         if ( i + T[i] > N + 1 ) { 
             DP[i] = DP[i+1]; 
         }
-
-        DP[i] = max(DP[i]+DP[i+T[i]], DP[i+T[i]]);
+        // 이전 상담의  최대 금액 + 현재 금액 vs 바로 직전 상담의 최대 금액
+        DP[i] = max(DP[i+T[i]]+P[i], DP[i+1]);
     }
 
     cout << DP[0];
